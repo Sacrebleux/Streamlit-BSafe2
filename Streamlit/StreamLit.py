@@ -111,6 +111,7 @@ info = st.text_input(
     disabled = st.session_state.disabled,
     on_change = disable,
     label_visibility = 'hidden',
+    max_chars = 4,
 )
 
 def enable():
@@ -124,7 +125,7 @@ Reset = st.button(
 
 if info.lower() == "open":
     st.write("The safe has opened")
-
+#"I am the voice of the sky, the herald of the storm. Press my name, and I shall open the way."
 
 if info.lower() != "open" and Reset:
     if info.lower() == "":
