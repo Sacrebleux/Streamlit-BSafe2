@@ -122,11 +122,11 @@ Reset = st.button(
     on_click = enable,
 )
 
-if info.lower() == "openme":
+if info.lower() == "open":
     st.write("The safe has opened")
 
 
-if info.lower() != "openme" and Reset:
+if info.lower() != "open" and Reset:
     if info.lower() == "":
         st.write("")
     else:
