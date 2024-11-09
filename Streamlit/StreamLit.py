@@ -135,28 +135,28 @@ if info.lower() != "open" and Reset:
 
 
 if Amber:
-    st.write("You feel a sense warmth.")
+    st.write("You feel a sense pulling you to the left.")
 
 if Bloodstone:
-    st.write("You feel your blood start to rush")
+    st.write("You feel your blood pulling you in 3 different ways.")
 
 if Opal:
     st.write("You feel your a sense of calm")
 
 if Citrine:
-    st.write("You feel a sense of balance")
+    st.write("You feel a sense of unbalance pulling you in 3 different ways.")
 
 if Sapphire:
-    st.write("You feel a sense of focus")
+    st.write("You feel a sense of focus pulling you in 4 different ways.")
 
 if Hematite:
-    st.write("You feel a sense of grounding")
+    st.write("You feel a sense of grounding pulling you in 3 different ways.")
 
 if Diamond:
-    st.write("You feel a sense of energy")
+    st.write("You feel a sense of energy pulling you in 3 different ways.")
 
 if Lapis:
-    st.write("You feel a sense of wisdom")
+    st.write("You feel a sense of wisdom pulling you to left and down")
 
 if Pearl:
     st.write("You feel a sense of clarity")
@@ -165,25 +165,25 @@ if Nephrite:
     st.write("You feel a sense of prosperity")
 
 if Topaz:
-    st.write("You feel a sense of confidence")
+    st.write("You feel a sense of confidence to your left")
 
 if Ruby:
-    st.write("You feel a sense of strength")
+    st.write("You feel a sense of strength pulling you down")
 
 if Jade:
-    st.write("You feel a sense of nature")
+    st.write("You feel a sense of nature in the corner of your mind")
 
 if Garnet:
-    st.write("You feel a sense of purity")
+    st.write("You feel a sense of purity above you")
 
 if Moonstone:
-    st.write("You feel a sense of inspiration")
+    st.write("You feel a sense of inspiration above you")
 
 if Wolframite:
-    st.write("You feel a sense of endurance")
+    st.write("You feel a sense of endurance pulling you in 3 different ways.")
 
 if Zircon:
-    st.write("You feel a sense of soothing")
+    st.write("You feel a sense of soothing to your right")
 
 if Emerald:
     st.write("You feel a sense of vitality")
