@@ -123,7 +123,7 @@ Reset = st.button(
     on_click = enable,
 )
 
-if info.lower() == "open":
+if info.lower() == "storm":
     st.write("The safe has opened")
 #"I am the voice of the sky, the herald of the storm. Press my name, and I shall open the way."
 
