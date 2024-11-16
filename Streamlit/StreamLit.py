@@ -111,7 +111,7 @@ info = st.text_input(
     disabled = st.session_state.disabled,
     on_change = disable,
     label_visibility = 'hidden',
-    max_chars = 4,
+    max_chars = 5,
 )
 
 def enable():
@@ -127,7 +127,7 @@ if info.lower() == "open":
     st.write("The safe has opened")
 #"I am the voice of the sky, the herald of the storm. Press my name, and I shall open the way."
 
-if info.lower() != "open" and Reset:
+if info.lower() != "storm" and Reset:
     if info.lower() == "":
         st.write("")
     else:
@@ -135,55 +135,55 @@ if info.lower() != "open" and Reset:
 
 
 if Amber:
-    st.write("You feel a sense pulling you to the left.")
+    st.write("You feel a sense pulling you up.")
 
 if Bloodstone:
-    st.write("You feel your blood pulling you in 3 different ways.")
+    st.write("You feel your blood pulling you in 3 different directions.")
 
 if Opal:
     st.write("You feel your a sense of calm")
 
 if Citrine:
-    st.write("You feel a sense of unbalance pulling you in 3 different ways.")
+    st.write("You feel a sense of unbalance pulling you to the right.")
 
 if Sapphire:
-    st.write("You feel a sense of focus pulling you in 4 different ways.")
+    st.write("You feel a sense of focus.")
 
 if Hematite:
-    st.write("You feel a sense of grounding pulling you in 3 different ways.")
+    st.write("You feel a sense of grounding pulling you in 3 different directions.")
 
 if Diamond:
-    st.write("You feel a sense of energy pulling you in 3 different ways.")
+    st.write("You feel a sense of energy pulling you down.")
 
 if Lapis:
-    st.write("You feel a sense of wisdom pulling you to left and down")
+    st.write("You feel a sense of wisdom pulling you to left.")
 
 if Pearl:
-    st.write("You feel a sense of clarity")
+    st.write("You feel a sense of clarity pulling you in 3 different directions.")
 
 if Nephrite:
-    st.write("You feel a sense of prosperity")
+    st.write("You feel a sense of prosperity pulling you in 4 different directions.")
 
 if Topaz:
-    st.write("You feel a sense of confidence to your left")
+    st.write("You feel a sense of confidence.")
 
 if Ruby:
-    st.write("You feel a sense of strength pulling you down")
+    st.write("You feel a sense of strength.")
 
 if Jade:
-    st.write("You feel a sense of nature in the corner of your mind")
+    st.write("You feel a sense of nature pulling you to the right.")
 
 if Garnet:
-    st.write("You feel a sense of purity above you")
+    st.write("You feel a sense of purity to your right.")
 
 if Moonstone:
-    st.write("You feel a sense of inspiration above you")
+    st.write("You feel a sense of inspiration.")
 
 if Wolframite:
-    st.write("You feel a sense of endurance pulling you in 3 different ways.")
+    st.write("You feel a sense of endurance pulling you in 2 different directions.")
 
 if Zircon:
-    st.write("You feel a sense of soothing to your right")
+    st.write("You feel a sense of soothing pulling you in 2 different directions.")
 
 if Emerald:
-    st.write("You feel a sense of vitality")
+    st.write("You feel a sense of vitality pulling you up,")
